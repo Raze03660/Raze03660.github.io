@@ -1,0 +1,140 @@
+/*START:type_style */
+
+body{
+  width:1250px;
+  margin:15px auto;
+  font-family: 'Noto Serif TC', serif;
+  background-color:beige;
+}
+
+p{
+  margin:0 0 20px 0;
+  line-height: 4em;
+}
+
+p, li{
+  line-height:20px;
+}
+/*END:type_style */
+
+/*START:header_style */
+header#page_header{
+  width:100%;
+}
+/*END:header_style */
+
+/*START:nav_style */
+header#page_header nav ul, footer#page_footer nav ul{
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+
+header#page_header nav ul li, footer#page_footer nav ul li{
+  padding:0;
+  margin: 0 20px 0 0;
+  display:inline;
+}
+/*END:nav_style */
+
+/*START:posts_style */
+section#posts{
+  float: left;
+  width: 74%;
+}
+
+
+section#posts aside{
+  float: right;
+  width: 35%;
+  margin-left: 5%;
+  font-size: 20px;
+  line-height: 40px;
+}
+/*END:posts_style */
+
+/*START:sidebar_style */
+section#sidebar{
+  float: left;
+  width: 25%;
+}
+/*END:sidebar_style */
+
+/*START:footer_style */
+footer#page_footer{
+  clear: both;
+  width: 100%; 
+  display: block; 
+  text-align: center;
+}
+/*END:footer_style */
+
+.full-screen{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: 10;
+  background:rgb(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-screen .asus{
+  width:90%;
+  max-width: 500px;
+  max-height: 80%;
+  height: 400px;
+  background: #fff;
+  padding: 20px;
+}
+
+.full-screen .asus .btn-close{
+  position: absolute;
+  width:30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #000;
+  color:#fff;
+  text-decoration: none;
+  top: 190px;
+  right: 600px;
+  border-radius: 50%;
+}
+.controller1{
+  display: block;
+  padding: 6px 10px;
+  background-color: #db7a7a;
+  color: #fff;
+  width: 300px;
+  text-decoration: none;
+}
+.controller2{
+  display: block;
+  padding: 6px 10px;
+  background-color: #7893ed;
+  color: #fff;
+  width: 300px;
+  text-decoration: none;
+}
+.text1{
+  width: 280px;
+  padding: 20px;
+  background-color: #e28686;
+  display: none;
+}
+.text2{
+  width: 280px;
+  padding: 20px;
+  background-color: #5fb1f0;
+  display: none;
+}
+.a1{
+  float: left;
+}
+.a2{
+  float: left;
+}
+

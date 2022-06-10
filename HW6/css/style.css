@@ -1,0 +1,40 @@
+body {
+    width: 50%;
+    margin: 15px auto;
+}
+p{
+    text-align: center;
+}
+
+.display{
+    font-size: 20px;
+}
+.sem1091 ,.sem1092,.sem1101,.sem1102 {
+    display: flex;
+    justify-content: center;
+    background-color: #cb810c;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+/*.sumAver, .semAver, .score{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    width: 20%;*/
+/*    margin-bottom:auto;*/
+/*    border: #ffd68a;*/
+/*    background-color: #db8c19;*/
+/*}*/
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 0px 0 0;
+}
+div button {
+    background-color: #cb810c;
+    font-size: 20px;
+    width: 40%;
+    border-radius: 30px;
+    margin: 0 20px 0 20px;
+}
